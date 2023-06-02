@@ -1,1 +1,39 @@
+Hangman Game
+This is a simple Hangman game implemented in Python using the Turtle graphics library. The game allows players to guess letters in order to reveal a hidden word. If the player guesses incorrectly, a part of the hangman figure is drawn. The objective is to guess the word before the hangman is complete.
 
+Requirements
+Python 3.x
+Turtle graphics library
+Colorama library
+Installation
+Clone the repository or download the Python script.
+Install the required libraries by running the following command:
+pip install turtle colorama
+Usage
+To start the game, run the following command in your terminal or command prompt:
+python hangman.py
+{or simply run on visual studio code}
+Once the game starts, you will see a menu with options:
+
+Play (P): Starts the hangman game.
+Instructions (I): Displays the game instructions.
+Exit (E): Exits the game.
+Game Rules
+The hangman selects a random word from the word list.
+The hangman figure is displayed on the screen.
+The player enters one letter at a time to guess the word.
+If the letter is in the word, it is revealed in the correct position(s).
+If the letter is not in the word, a part of the hangman figure is drawn.
+The player has a limited number of incorrect guesses before the hangman is complete.
+The game continues until the word is guessed correctly or the hangman is complete.
+After the game ends, the player can choose to play again or exit the game.
+Customization
+Word List: You can modify the word_list variable to include your own list of words. The game will randomly select a word from this list.
+Hangman Parts: The hangman figure is drawn using six parts: head, body, left arm, right arm, left leg, and right leg. You can modify the parts list to change the order or add/remove parts as needed.
+Colors: The colors used for drawing the hangman figure can be customized by modifying the colors list.
+Graphics: The hangman figure is drawn using Turtle graphics. You can modify the drawing functions (draw_head, draw_body, etc.) to customize the appearance of the hangman figure.
+Credits
+This Hangman game was developed by Awais Naeem. It utilizes the Turtle graphics library for drawing and the Colorama library for color output.
+
+License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for personal or educational purposes.
